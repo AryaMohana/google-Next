@@ -1,11 +1,10 @@
-import React from 'react'
 
-function page() {
+import HomeHeader from "@/components/HomeHeader"
+export default function page() {
   return (
-    <div>
-      home
-    </div>
-  )
+    <>
+     < HomeHeader />
+    </>
+  );
 }
 
-export default page
